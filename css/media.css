@@ -1,0 +1,219 @@
+ @media only screen and (max-width: 480px)
+  {
+      div.wrap-head
+          {
+            width: 100%;
+            height: auto;
+          }
+           header img {
+            margin-left: 10%;
+            transform: scale(0.8);
+          }
+          .hamburger
+          {
+            width: 35px;
+            height: 35px;
+            margin-right: 10%;
+            margin-top: 1.5%;
+          }
+          div.hamburger .line:after{top: 7px; }
+          div.hamburger .line:before{top: -7px; }
+          div.title-text
+          {margin: 40% 0 40% 0;
+            }
+          div.title-text h1
+          {
+              width: 55%;
+              font-size: 170%;
+              padding: 2% 0px 2% 0.5%;
+          }
+
+          div.title-text p
+          {
+            font-size: 0.8em;
+            letter-spacing: 0em;
+          }
+
+.wrap-about
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+            .wrap-about img
+            { display: none;}
+            div.text-about
+            {
+              width: 90%;
+              margin: 10% auto;
+              text-align: center;
+              margin-bottom: 3%;
+            }
+            div.text-about h3
+            {
+              font-size: 1.1em;
+              margin-bottom: 8%;
+            }
+            div.text-about p
+            {
+              font-size: 0.95em;
+              line-height: 25px;
+            }
+
+            div.button-about
+            {
+              margin:7% auto;
+            }
+
+ div.text-wprocess
+ {
+   margin-top: 6.5%;
+  text-align: center;
+   }
+            div.text-wprocess h1
+            {
+              font-size: 2.2em;
+             }
+             div.text-wprocess p
+             {
+              font-size: 0.95em;
+              margin-top: 4%;
+             }
+             div.work
+             {
+              width: 100%;
+              margin:0;
+              text-align: center;
+             }
+            div.design, div.development, div.testing, div.launch
+            {
+              float: none;
+              width: 100%;
+              height: 100px;
+              font-family: 'Raleway';
+              font-size: 1em;
+              font-weight: bold;
+              color: #fff;
+            }
+            div.design{background: #10c6fc; margin:0 0 0 0;}
+            div.development{background: #835aeb;margin:5% 0 0 0; }
+            div.testing{background: #002453; margin:5% 0 0 0;}
+            div.launch{background: #ff2b4a;margin:5% 0 7% 0;}
+
+            div.work img
+            {
+              padding: 2% 0 0 0;
+            }
+            div.work p
+            {
+              padding-bottom: 0;
+            }
+
+div.wrap-experience
+{
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+            div.experience
+            {
+              width: 90%;
+              margin:7% 0 0 0;
+            }
+            div.education
+            {
+              width: 90%;
+              margin: 5% 0 7% 0;
+            }
+
+
+div.wrap-latestwork
+{
+  width: 100%;
+  height: auto;}
+
+              div.text-latestwork
+            {
+              margin-top: 7%;
+              text-align: center;
+            }
+            div.text-latestwork h1
+            {
+              font-size: 2.2em;
+             }
+             div.text-latestwork p
+             {
+              font-size: 0.95em;
+              margin-top: 4%;
+             }
+              div.latestwork 
+              {
+                width: 100%;
+                margin: 0;
+              }
+             div.work1, .work2, .work3, .work4, div.work5
+             {
+              height: 100px;
+              width: 100%;
+              background: #10c6fc;
+              margin:3% 0 0 0;
+             }
+            .work2
+            {background: #835aeb; }
+           .work5
+             {
+              background: #835aeb;
+              margin-right: 0;
+             }
+             .work3
+             {
+              background: #002453;
+             }
+             .work4
+             {
+              background: #ff2b4a;
+              margin-right: 0;
+             }
+             div.latestwork:nth-last-child(1)
+
+            {
+              margin-bottom: 7%;
+            }
+div.wrap-quote
+{
+  height: auto;
+}
+              div.quote
+              {
+                width: 70%;
+                padding: 7% 0 7% 11%;
+              }
+              div.quote p
+              {
+                font-size: 0.95em;
+              }
+
+div.wrap-contact
+{
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+              div.message
+              {
+                width: 90%;
+                margin:7% 0 0 0;
+
+              }
+              div.contact
+              {
+                width: 90%;
+                margin:5% 0 7% 0;
+              }
+
+
+div.wrap-footer
+{
+  height: auto;
+}
+  }

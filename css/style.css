@@ -1,0 +1,554 @@
+@font-face{
+font-family: 'Raleway';
+src: url(../fonts/Raleway-Heavy.ttf);
+src: url(../fonts/Raleway-Bold.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div.wrap-head
+{
+  width: 100%;
+  height: 1020px;
+  background: linear-gradient(30deg, rgba(121,107,123,1), rgba(47,105,125,1),rgba(121,107,123,1)) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+          header
+          {
+            display: inline-block;
+            width: 100%;
+            margin-top: 4%;
+          }
+          header img {
+            float: left;
+            margin-left: 17%;
+          }
+          .hamburger
+          {
+            width: 50px;
+            height: 50px;
+            border:2px solid #fff;
+            float: right;
+            margin-right: 17%;
+            position: relative;
+            cursor: pointer;
+          }
+          div.hamburger .line
+          {
+            width: 70%;
+            height: 2px;
+            background: #fff;
+            position: absolute;
+            top: 50%;
+            right: 15%;
+          }
+          div.hamburger .line:after,
+          div.hamburger .line:before 
+          {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: #fff;
+            position: absolute;
+          }
+          div.hamburger .line:after{
+            top: 10px;
+          }
+          div.hamburger .line:before{
+            top: -10px;
+          }
+          div.title-text
+          {
+            width: 100%;
+            text-align: center;
+            font-family: 'Raleway';
+            margin-top: 15%;
+          }
+          div.title-text h1
+          {
+              width: 33%;
+              font-size: 400%;
+              color: #fff;
+              margin: auto;
+              letter-spacing: 0.3em;
+              padding: 2% 0px 2% 0.5%;
+              border-top: 3px solid #98b4be;
+              border-bottom: 3px solid #98b4be;
+          }
+
+          div.title-text p
+          {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 1.56em;
+            color: #fff;
+            margin-top: 2%;
+            letter-spacing: 0.1em;
+          }
+
+
+.wrap-about
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+            .wrap-about img
+            {
+              max-width: 100%;
+              margin-left: 17%;
+            }
+            div.text-about
+            {
+              width: 35%;
+              margin-right: 17%;
+            }
+            div.text-about h3
+            {
+              font-family: 'Roboto', sans-serif;
+              font-size: 1.2em;
+              color: #737373;
+              width: 700;
+              margin-bottom: 8%;
+            }
+            div.text-about p
+            {
+               font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 1em;
+              color: #737373;
+              line-height: 28px;
+            }
+
+            div.button-about
+            {
+              width: 200px;
+              height: 50px;
+              background: #ff2b4a;
+              text-align: center;
+              line-height: 50px;
+              margin-top: 70px;
+              border: 2px solid rgba(255,43,74,0);
+              transition: 0.4s;
+            }
+            div.button-about a
+            {
+              text-decoration: none;
+              font-family: 'Roboto', sans-serif;
+              font-size: 1em;
+              color: #fff;  
+              font-weight: 500;
+            }
+            div.button-about:hover
+            {
+              background: #fff;
+              border: 2px solid rgba(255,43,74,1);
+              cursor: pointer;
+
+            }
+
+            .button-about:hover a 
+            {
+              color: #ff2b4a;
+            }
+
+
+div.wrap-wprocess
+{
+  width: 100%;
+  height: 670px;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+            div.text-wprocess
+            {
+              margin-top: 6.5%;
+            }
+            div.text-wprocess h1
+            {
+              font-family: 'Raleway';
+              font-size: 2.5em;
+              color: #000;
+              font-weight: 700;
+             }
+             div.text-wprocess p
+             {
+
+              font-family: 'Roboto', sans-serif;
+              font-size: 1em;
+              font-weight: 500;
+              color: #6f6f6f;
+              margin-top: 7%;
+             }
+             div.work
+             {
+              width: 100%;
+              margin-bottom: 7%;
+              text-align: center;
+             }
+            div.design, .development, .testing, .launch
+            {
+              float: left;
+              width: 15%;
+              height: 270px;
+              transition:0.5s;
+            }
+            div.design{background: #10c6fc; margin-left: 17%;}
+            div.development{background: #835aeb; margin:0 1% 0 1%; }
+            div.testing{background: #002453; margin:0 1% 0 0%;}
+            div.launch{background: #ff2b4a;margin-right: 17%;}
+
+            div.work img
+            {
+              padding: 80px 0 35px 0;
+            }
+            div.work a
+            {
+              margin-bottom: 80px;
+              font-family: 'Raleway';
+              font-size: 1em;
+              font-weight: bold;
+              color: #fff;
+              text-decoration: none;
+            }
+
+            div.design:hover, div.development:hover, div.testing:hover, div.launch:hover
+            {
+              transform: scale(1.1,1.1);
+                -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.56);
+                -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.56);
+                     box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.56);
+            }
+
+
+
+div.wrap-experience
+{
+  width: 100%;
+  height: 795px;
+  background: linear-gradient(30deg, rgba(121,107,123,1), rgba(47,105,125,1),rgba(121,107,123,1)) ;
+  display: flex;
+  align-items: center;
+}
+
+            div.experience
+            {
+              width: 31%;
+              background: linear-gradient(45deg, rgba(106,99,124,1), rgba(79,99,124,1)) ;
+              margin-left: 17%;
+              margin-right: 1%;
+            }
+            div.education
+            {
+              width: 31%;
+              background: linear-gradient(45deg, rgba(106,99,124,1), rgba(79,99,124,1)) ;
+              margin-right: 17%;
+            }
+            div.experience h1,  div.education h1
+            {
+               font-family: 'Raleway';
+               color: #fff;
+               font-size: 1.625em;
+               font-weight: bold;
+               padding: 10% 0 7% 7%;
+            }
+            div.experience h2,  div.education h2
+            {
+              font-family: 'Roboto', sans-serif;
+              color: #f3f3f4;
+              font-size: 1.125em;
+              font-weight: 500;
+              padding: 3.5% 0 5% 7%;
+            }
+            div.experience h3,  div.education h3
+            {
+              font-family: 'Roboto', sans-serif;
+              color: #d8d9dd;
+              font-size: 1em;
+              font-weight: 400;
+              padding-left: 7%;
+            }
+            div.experience p,  div.education p
+            {
+              font-family: 'Roboto', sans-serif;
+              color: #bbbcc5;
+              font-size: 1em;
+              font-weight: 300;
+              line-height: 1.3em;
+              padding: 5% 10% 4% 7%;
+            }
+            div.education p:nth-child(2), div.experience p:nth-child(2)
+            {
+              padding-bottom: 10%;
+            }
+            div.line
+            {
+              width: 85%;
+              height: 2px;
+              margin:auto;
+              background: #848496;
+            }
+
+
+div.wrap-latestwork
+{
+  width: 100%;
+  height: 955px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+            div.text-latestwork
+            {
+              margin-top: 6.5%;
+              text-align: center;
+            }
+            div.text-latestwork h1
+            {
+              font-family: 'Raleway';
+              font-size: 2.5em;
+              color: #000;
+              font-weight: 700;
+             }
+             div.text-latestwork p
+             {
+              font-family: 'Roboto', sans-serif;
+              font-size: 1em;
+              font-weight: 500;
+              color: #6f6f6f;
+              margin-top: 7%;
+             }
+              div.latestwork 
+              {
+                width: 62%;
+                margin: 3% 17% 15% 15%;
+              }
+             div.work1, .work2, .work3, .work4
+             {
+              height: 270px;
+              width: 24%;
+              background: #10c6fc;
+              float: left;
+              margin-right: 1%;
+              margin-top: 1%;
+
+             }
+            .work2
+            {background: #835aeb; }
+             div.work5
+             {
+              width: 49%;
+              height: 270px;
+              background: #835aeb;
+              float: left;
+              margin-right: 10px;margin-top: 10px;
+             }
+             .work3
+             {
+              background: #002453;
+             }
+             .work4
+             {
+              background: #ff2b4a;
+              margin-right: 0;
+             }
+             
+
+div.wrap-quote
+{
+  width: 100%;
+  height: 705px;
+  background: #64cbc0;
+}
+              div.quote
+              {
+                width: 24%;
+                padding: 7% 0 8% 11%;
+              }
+              div.quote p
+              {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1em;
+                font-weight: 500;
+                color: #1d4440;
+                line-height: 1.5em;
+              }
+              div.quote p:nth-child(2)
+              {
+                padding-top: 50px;
+              }
+              .sign
+              {
+                padding-top: 50px;
+                padding-bottom:10px;
+              } 
+              div.quote h3
+              {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.125em;
+                color: #295a55;
+              }
+
+div.wrap-contact
+{
+  width: 100%;
+  height: 980px;
+  background: linear-gradient(30deg, rgba(121,107,123,1), rgba(47,105,125,1),rgba(121,107,123,1)) ;
+  display: flex;
+  align-items: center;
+}
+              div.message
+              {
+                width: 31%;
+                background: linear-gradient(45deg, rgba(106,99,124,1), rgba(79,99,124,1)) ;
+                margin-left: 17%;
+                margin-right: 1%;
+
+              }
+              div.message input, textarea
+              {
+                background: none;
+                border: 1px solid #fff;
+                padding: 2% 0px 2% 4%;
+                width: 82%;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1em;
+                color: #fff;
+                font-weight: 300;
+                margin: 0px 7% 4% 7%;
+              }
+              textarea
+              {
+                height: 180px;
+              }
+               div.message input:nth-child(2)
+               {
+                margin-top: 5%;
+               }
+              ::placeholder
+              {
+                font-family: 'Roboto', sans-serif;
+                font-size: 0.75em;
+                color: #c5c5cc;
+                font-weight: 400;
+                }
+
+              div.contact
+              {
+                width: 31%;
+                margin-right: 17%;
+              }
+
+              div.address, div.phone, div.web
+              {
+                width: 100%;
+                background: linear-gradient(45deg, rgba(106,99,124,1), rgba(79,99,124,1)) ;
+              }
+              div.phone, div.web
+              {
+                margin-top: 2.5%;
+              }
+
+              div.wrap-contact h1
+              {
+                font-family: 'Raleway';
+                color: #fff;
+                font-size: 1.625em;
+                padding: 10% 0 8% 7%;
+              }
+
+              div.wrap-contact p
+              {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1em;
+                color: #d8d9dd;
+                 padding: 0px 10% 7% 7%;
+                 font-weight: normal;
+                 line-height: 30px;
+                 letter-spacing: 10%;
+              }
+               div.button-contact
+            {
+              width: 200px;
+              height: 50px;
+              background: #ff2b4a;
+              text-align: center;
+              float: right;
+              margin-top:3%;
+              margin-right: 7%;
+              margin-bottom: 12%;
+              border: 2px solid rgba(255,43,74,0);
+              transition: 0.4s;
+            }
+            div.button-contact a
+            {
+              font-family: 'Roboto', sans-serif;
+              font-size: 1em;
+              color: #fff;  
+              font-weight: 500;
+              line-height: 50px;
+              text-decoration: none;
+            }
+             div.button-contact:hover
+            {
+              background: none;
+              border: 2px solid rgba(255,43,74,1);
+              cursor: pointer;
+
+            }
+
+            .button-contact:hover a 
+            {
+              color: #ff2b4a;
+            }
+
+div.wrap-footer
+{
+  width: 100%;
+  height: 170px;
+  background: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+              div.social
+              {
+                width: 100%;
+                text-align: center;
+                padding-top: 3%;
+              }
+              div.social img
+              {
+                padding: 0 0.5% 0 0.5%;
+                border-right: 1px solid #aaaaaa;
+              }
+              div.social img:nth-child(4)
+              {
+                padding: 0 0.5% 0 0.5%;
+                border-right: 0px solid #aaaaaa;
+              }
+              div.wrap-footer p
+              {
+                font-family: 'Roboto', sans-serif;
+                font-weight: normal;
+                font-size: 0.75em;
+                color: #aaaaaa;
+                padding: 1% 0  3% 0;
+              }
+
+
+
+
+ 
